@@ -1,0 +1,17 @@
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.csproj.AssemblyReference.cache
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.AssemblyInfoInputs.cache
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.AssemblyInfo.cs
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.csproj.CoreCompileInputs.cache
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\Listas.exe
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\Listas.deps.json
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\Listas.runtimeconfig.json
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\Listas.dll
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\Listas.pdb
+E:\2024_5°7°\Cheng_Leonardo\Listas\bin\Debug\net7.0\ConsoleTables.dll
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.csproj.CopyComplete
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.dll
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\refint\Listas.dll
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.pdb
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\Listas.genruntimeconfig.cache
+E:\2024_5°7°\Cheng_Leonardo\Listas\obj\Debug\net7.0\ref\Listas.dll

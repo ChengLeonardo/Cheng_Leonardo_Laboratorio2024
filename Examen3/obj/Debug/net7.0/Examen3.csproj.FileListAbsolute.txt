@@ -1,0 +1,17 @@
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\Examen3.exe
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\Examen3.deps.json
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\Examen3.runtimeconfig.json
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\Examen3.dll
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\Examen3.pdb
+E:\2024_5°7°\Cheng_Leonardo\Examen3\bin\Debug\net7.0\ConsoleTables.dll
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.csproj.AssemblyReference.cache
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.AssemblyInfoInputs.cache
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.AssemblyInfo.cs
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.csproj.CoreCompileInputs.cache
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.csproj.CopyComplete
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.dll
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\refint\Examen3.dll
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.pdb
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\Examen3.genruntimeconfig.cache
+E:\2024_5°7°\Cheng_Leonardo\Examen3\obj\Debug\net7.0\ref\Examen3.dll
