@@ -7,17 +7,8 @@ public class Curso
     public int Ciclo_lectivo {get; set;}
     public List<Alumno> Alumnos = new List<Alumno>();
 
-    public void Curso(string codigo, int anio, int division, int ciclo_lectivo, List<Alumno> alumnos)
-    {
-        Codigo = codigo;
-        Anio = anio;
-        Division = division;
-        Ciclo_lectivo = ciclo_lectivo;
-        Alumnos = alumnos;
-    }
-
     public void InscribirAlumno(Alumno alumno)
     {
-        Alumnos.add(alumno);
+        Alumnos.Add(alumno);
     }
 }
