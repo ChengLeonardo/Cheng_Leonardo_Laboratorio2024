@@ -1,6 +1,6 @@
 ﻿using BibliotecaActividad5;
 
-Console.Write("Ingrese el codigo del Curso: ");
+Console.Write("Ingrese el nombre del Alumno: ");
 string nombre = Console.ReadLine();
 List<Curso> cursos = new List<Curso>();
 List<Alumno> alumnos = new List<Alumno>();
@@ -30,51 +30,55 @@ while (nombre != "")
 
     if(nombre == "curso")
     {
-        nombre = "";
-        Console.Write("Ingrese el codigo del curso: ");
-        string codigo = Console.ReadLine();
-
-        Console.Write("Ingrese el anio del curso: ");
-        int anio = Convert.ToInt16(Console.ReadLine());
-
-        Console.Write("Ingrese la division del curso: ");
-        int division = Convert.ToInt16(Console.ReadLine());
-
-        Console.Write("Ingrese el ciclo lectivo del curso: ");
-        int ciclo_lectivo = Convert.ToInt16(Console.ReadLine());
-
-        List<Alumno> alumnosAgregar = new List<Alumno>();
-
-        Console.Write("Ingrese el tipo de documento del alumno a agregar: ");
-        tipoDocumento = Console.ReadLine();
-        while(tipoDocumento != "")
+        while()
         {
-            Console.Write("Ingrese el numero de documento del alumno a agregar: ");
-            numero_Documento = Convert.ToInt32(Console.ReadLine());
+            nombre = "";
+            Console.Write("Ingrese el codigo del curso: ");
+            string codigo = Console.ReadLine();
 
-            bool existe = alumnos.Any(p => p.NumDocumento == numero_Documento && p.TipoDocumento == tipoDocumento);
+            Console.Write("Ingrese el anio del curso: ");
+            int anio = Convert.ToInt16(Console.ReadLine());
 
-            if(existe)
-            {
-                alumnosAgregar.AddRange(alumnos.Where(p => p.NumDocumento == numero_Documento && p.TipoDocumento == tipoDocumento));
-            } 
-            else
-            {
-                Console.WriteLine("alumno ingresado no existe.");
-            }
+            Console.Write("Ingrese la division del curso: ");
+            int division = Convert.ToInt16(Console.ReadLine());
 
-            Console.Write("Ingrese el tipo de documento del alumno a agregar, si quiere parar el programa, no ingrese nada: ");
+            Console.Write("Ingrese el ciclo lectivo del curso: ");
+            int ciclo_lectivo = Convert.ToInt16(Console.ReadLine());
+
+            List<Alumno> alumnosAgregar = new List<Alumno>();
+
+            Console.Write("Ingrese el tipo de documento del alumno a agregar: ");
             tipoDocumento = Console.ReadLine();
-            if(tipoDocumento == "" && alumnosAgregar.Count() != 0)
+            while(tipoDocumento != "")
             {
-                Curso curso = new Curso()
+                Console.Write("Ingrese el numero de documento del alumno a agregar: ");
+                numero_Documento = Convert.ToInt32(Console.ReadLine());
+
+                bool existe = alumnos.Any(p => p.NumDocumento == numero_Documento && p.TipoDocumento == tipoDocumento);
+
+                if(existe)
                 {
-                    Codigo = codigo,
-                    Anio = anio,
-                    Division = division,
-                    Ciclo_lectivo = ciclo_lectivo,
-                    Alumnos = alumnosAgregar
-                };
+                    alumnosAgregar.AddRange(alumnos.Where(p => p.NumDocumento == numero_Documento && p.TipoDocumento == tipoDocumento));
+                } 
+                else
+                {
+                    Console.WriteLine("alumno ingresado no existe.");
+                }
+
+                Console.Write("Ingrese el tipo de documento del alumno a agregar, si quiere parar el programa, no ingrese nada, si quiere ingresar nuevos alumnos, ingrese 'alumnos', si quiere ingresar otros cursos, ingrese 'curso', si quiere ingresar una escuela nueva, ingrese 'escuela': ");
+                tipoDocumento = Console.ReadLine();
+                if(tipoDocumento == "" && alumnosAgregar.Count() != 0)
+                {
+                    Curso curso = new Curso()
+                    {
+                        Codigo = codigo,
+                        Anio = anio,
+                        Division = division,
+                        Ciclo_lectivo = ciclo_lectivo,
+                        Alumnos = alumnosAgregar
+                    };
+                    cursos.Add(curso);
+                }
             }
         }
     }

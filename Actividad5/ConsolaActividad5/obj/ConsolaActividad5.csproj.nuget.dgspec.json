@@ -4,14 +4,14 @@
     "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\ConsolaActividad5.csproj": {}
   },
   "projects": {
-    "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
+    "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj",
+        "projectUniqueName": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj",
         "projectName": "BibliotecaActividad5",
-        "projectPath": "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj",
+        "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj",
         "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-        "outputPath": "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\obj\\",
+        "outputPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
-                "projectPath": "e:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj"
+              "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
+                "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj"
               }
             }
           }
