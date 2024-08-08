@@ -5,7 +5,7 @@ public class Alumno
     public required string Nombre {get; set;}
     public required string Apellido {get; set;}
     public int NumDocumento {get; set;}
-    public string TipoDocumento {get; set;}
+    public TipoDocumento TipoDocumento {get; set;}
 
     public void InformarAlumno()
     {

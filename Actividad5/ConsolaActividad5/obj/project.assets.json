@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\ConsolaActividad5.csproj",
+      "projectUniqueName": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\ConsolaActividad5.csproj",
       "projectName": "ConsolaActividad5",
-      "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\ConsolaActividad5.csproj",
+      "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\ConsolaActividad5.csproj",
       "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-      "outputPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\obj\\",
+      "outputPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\ConsolaActividad5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,14 +47,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
-              "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj"
+            "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj": {
+              "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Cheng_Leonardo_Laboratorio2024\\Actividad5\\BibliotecaActividad5\\BibliotecaActividad5.csproj"
             }
           }
         }
@@ -63,6 +64,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -84,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

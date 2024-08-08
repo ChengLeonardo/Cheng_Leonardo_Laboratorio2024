@@ -16,3 +16,9 @@ E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\D
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.pdb
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.genruntimeconfig.cache
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ref\ConsolaActividad5.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.csproj.AssemblyReference.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\obj\Debug\net7.0\ConsolaActividad5.sourcelink.json

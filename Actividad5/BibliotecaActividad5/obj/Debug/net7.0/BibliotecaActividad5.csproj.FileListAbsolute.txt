@@ -10,3 +10,15 @@ E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\ob
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\refint\BibliotecaActividad5.dll
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.pdb
 E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\ref\BibliotecaActividad5.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\bin\Debug\net7.0\BibliotecaActividad5.deps.json
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\bin\Debug\net7.0\BibliotecaActividad5.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\bin\Debug\net7.0\BibliotecaActividad5.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.sourcelink.json
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\refint\BibliotecaActividad5.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\BibliotecaActividad5.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\BibliotecaActividad5\obj\Debug\net7.0\ref\BibliotecaActividad5.dll
