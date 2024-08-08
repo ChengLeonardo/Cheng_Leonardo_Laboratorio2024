@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsolaActividad5
-build_property.ProjectDir = C:\Users\Lab15-PC01\Documents\GitHub\Cheng_Leonardo_Laboratorio2024\Actividad5\ConsolaActividad5\
+build_property.ProjectDir = /mnt/Datos/2024_5_7/Cheng_Leonardo/Cheng_Leonardo_Laboratorio2024/Actividad5/ConsolaActividad5/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -39,12 +39,12 @@ while (true)
 void MostrarMenu()
 {
     Console.WriteLine("\nMenú Principal");
-    Console.WriteLine("1. Inscribir Escuela");
-    Console.WriteLine("2. Inscribir Curso");
-    Console.WriteLine("3. Inscribir Alumno");
-    Console.WriteLine("4. Mostrar Cursos");
-    Console.WriteLine("5. Mostrar Alumnos");
-    Console.WriteLine("6. Salir");
+    Console.WriteLine("\n1. Inscribir Escuela");
+    Console.WriteLine("\n2. Inscribir Curso");
+    Console.WriteLine("\n3. Inscribir Alumno");
+    Console.WriteLine("\n4. Mostrar Cursos");
+    Console.WriteLine("\n5. Mostrar Alumnos");
+    Console.WriteLine("\n6. Salir");
     Console.Write("Seleccione una opción: ");
 }
 
@@ -75,17 +75,17 @@ void ControlOpcion(string opcion, List<Escuela> escuelas, List<TipoDocumento> ti
                 MostrarAlumnos(escuelas);
                 break;
             case "6":
-                Console.WriteLine("Saliendo del programa...");
+                Console.WriteLine("\nSaliendo del programa...");
                 return;
             default:
-                Console.WriteLine("Opción no válida. Por favor, intente nuevamente.");
+                Console.WriteLine("\nOpción no válida. Por favor, intente nuevamente.");
                 break;
         }
 }
 
 void InscribirEscuela(List<Escuela> escuelas)
 {
-    Console.Write("Ingrese el nombre de la Escuela: ");
+    Console.Write("\nIngrese el nombre de la Escuela: ");
     string nombreEscuela = Console.ReadLine();
 
     Escuela escuela = new Escuela()
@@ -95,13 +95,14 @@ void InscribirEscuela(List<Escuela> escuelas)
     };
 
     escuelas.Add(escuela);
+    Console.WriteLine("\nEscuela inscribido exitosamente!");
 }
 
 void InscribirCurso(List<Escuela> escuela)
 {
     if(escuelas.Count() == 0)
     {
-        Console.WriteLine("No se puede inscribir porque no existe una escuela.");
+        Console.WriteLine("\nNo se puede inscribir porque no existe una escuela.");
     }
     else
     {
@@ -130,14 +131,18 @@ void InscribirCurso(List<Escuela> escuela)
                 Ciclo_lectivo = ciclo_lectivo,
                 Alumnos = new List<Alumno>()
             };
-            foreach(Escuela escuelaExistentes in escuelas)
+            foreach(Escuela escuelaExistente in escuelas)
             {
-                if(escuelaExistentes.Nombre == nombreEscuela)
+                if(escuelaExistente.Nombre == nombreEscuela)
                 {
-                    escuelaExistentes.cursos.Add(curso);
+                    escuelaExistente.cursos.Add(curso);
                 }
             }
-
+            Console.WriteLine("\nCurso inscribido exitosamente!");
+        }
+        else
+        {
+            Console.WriteLine("\nEscuela no existe.");
         }
     }
 }
@@ -146,7 +151,7 @@ void InscribirAlumno(List<Escuela> escuelas, List<TipoDocumento> tipoDocumentos)
 {
     if(escuelas.Count() == 0)
     {
-        Console.WriteLine("No se puede inscribir porque no existe una escuela.");
+        Console.WriteLine("\nNo se puede inscribir porque no existe una escuela.");
     }
     else if(escuelas.Any(escuela => escuela.cursos.Count() != 0))
     {
@@ -158,7 +163,10 @@ void InscribirAlumno(List<Escuela> escuelas, List<TipoDocumento> tipoDocumentos)
             Console.Write("Ingrese el codigo del curso a inscribir el alumno: ");
             string codigo = Console.ReadLine();
             if(escuelas.Any(escuela => escuela.Nombre == nombreEscuela && escuela.cursos.Any(curso => curso.Codigo == codigo)))
-            {       
+            {
+                Escuela  escuela = escuelas.FirstOrDefault(escuela => escuela.Nombre == nombreEscuela);
+                Curso curso = escuela.cursos.FirstOrDefault(curso => curso.Codigo == codigo);
+
                 Console.Write("Ingrese el nombre del alumno: ");
                 string nombre = Console.ReadLine();
                 Console.Write("Ingrese el apellido del alumno: ");
@@ -178,24 +186,29 @@ void InscribirAlumno(List<Escuela> escuelas, List<TipoDocumento> tipoDocumentos)
                             NumDocumento = numero_Documento,
                             TipoDocumento = tipoDocumentos.FirstOrDefault(tipoDocumento => tipoDocumento.Nombre == nombreTipoDocumento)
                         };
-
+                        curso.Alumnos.Add(alumno);
+                        Console.WriteLine("\nAlumno inscribido exitosamente!");
                         return;
                     }
                     else
                     {
-                        Console.WriteLine("No existe este tipo de documento.");
+                        Console.WriteLine("\nNo existe este tipo de documento.");
                     }
                 }
             }
             else
             {
-                Console.WriteLine("Curso no existe.");
+                Console.WriteLine("\nCurso no existe.");
             }
         }
         else
         {
-            Console.WriteLine("Escuela no existe.");
+            Console.WriteLine("\nEscuela no existe.");
         }
+    }
+    else
+    {
+        Console.WriteLine("\nNo existe ninguna escuela con un curso.");
     }
 
 }
@@ -210,7 +223,7 @@ void MostrarCursos(List<Escuela> escuelas)
         Escuela escuela = escuelas.FirstOrDefault(escuela => escuela.Nombre == nombreEscuela);
         List<Curso> cursos = escuela.cursos;
         
-        Console.WriteLine("Cursos de la escuela: ");
+        Console.WriteLine("\nCursos de la escuela: ");
 
         foreach(Curso curso in cursos)
         {
@@ -220,7 +233,7 @@ void MostrarCursos(List<Escuela> escuelas)
     }
     else
     {
-        Console.WriteLine("Escuela no existe.");
+        Console.WriteLine("\nEscuela no existe.");
     }
 }
 
@@ -233,10 +246,10 @@ void MostrarAlumnos(List<Escuela> escuelas)
     {
         Escuela escuela = escuelas.FirstOrDefault(escuela => escuela.Nombre == nombreEscuela);
 
-        Console.WriteLine("Ingrese el codigo del curso a saber: ");
+        Console.WriteLine("\nIngrese el codigo del curso a saber: ");
         string codigoCurso = Console.ReadLine();
 
-        if(escuela.cursos.Any(curso => curso.Codigo == Codigo))
+        if(escuela.cursos.Any(curso => curso.Codigo == codigoCurso))
         {
             Curso curso = escuela.cursos.FirstOrDefault(curso => curso.Codigo == codigoCurso);
             foreach(Alumno alumno in curso.Alumnos)
@@ -247,11 +260,11 @@ void MostrarAlumnos(List<Escuela> escuelas)
         }
         else
         {
-            Console.WriteLine("Curso no esiste.");
+            Console.WriteLine("\nCurso no esiste.");
         }
     }
     else
     {
-        Console.WriteLine("Escuela no existe.");
+        Console.WriteLine("\nEscuela no existe.");
     }
 };
