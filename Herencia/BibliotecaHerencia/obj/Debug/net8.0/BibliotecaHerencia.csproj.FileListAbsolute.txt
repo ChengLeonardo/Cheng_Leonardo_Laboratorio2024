@@ -1,0 +1,12 @@
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\bin\Debug\net8.0\BibliotecaHerencia.deps.json
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\bin\Debug\net8.0\BibliotecaHerencia.dll
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\bin\Debug\net8.0\BibliotecaHerencia.pdb
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.sourcelink.json
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.dll
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\refint\BibliotecaHerencia.dll
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\BibliotecaHerencia.pdb
+C:\Users\Lab15-PC01\Desktop\Cheng_Leonardo_Laboratorio2024\Herencia\BibliotecaHerencia\obj\Debug\net8.0\ref\BibliotecaHerencia.dll

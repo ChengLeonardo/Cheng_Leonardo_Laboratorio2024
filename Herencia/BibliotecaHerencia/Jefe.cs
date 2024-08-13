@@ -9,5 +9,9 @@ namespace BibliotecaHerencia
     {
         public int Edad { get; set; }
         public decimal Sueldo { get; set; }
+        public void InformarNombreCompleto()
+        {
+            Console.WriteLine($"{Nombre.ToUpper()} {Apellido.ToUpper()}");
+        }
     }
 }

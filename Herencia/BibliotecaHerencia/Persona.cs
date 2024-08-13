@@ -1,6 +1,6 @@
 namespace BibliotecaHerencia
 {
-    public class Persona
+    public class Persona // clase Padre(teoria) / Super clase (java) / clase base (c#)
     {
         public string Nombre { get; set; }
         public string Apellido {get; set; }
