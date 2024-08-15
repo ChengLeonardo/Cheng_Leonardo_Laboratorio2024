@@ -15,20 +15,19 @@ AutoFamiliar autoFamiliar1 = new AutoFamiliar()
 
 InformarConsumo(autoFamiliar1);
 
-
-Auto auto = new Auto()
+AutoFamiliar autoFamiliar2 = new AutoFamiliar()
 {
-    Marca = "Tesla",
-    NumeroSerieMotor = 3,
-    Anio = 2020,
-    Precio = 134234,
+    Marca = "audo", 
+    NumeroSerieMotor = 1,
+    Anio = 101,
+    Precio = 13143,
     Combustion = false,
-    Kilometraje = 234234,
-    Tipo = "Lujo"
+    Kilometraje = 42342,
+    CantidadPasajeros = 9,
+    Tipo = "Familiar"
 };
 
-InformarConsumo(auto);
-
+InformarConsumo(autoFamiliar2);
 
 Camioneta camioneta = new Camioneta
 {
@@ -44,7 +43,7 @@ Camioneta camioneta = new Camioneta
 
 InformarConsumo(camioneta);
 
-void InformarConsumo(Auto vehiculo)
+void InformarConsumo(IVehiculo vehiculo)
 {
     float vehiculoConsumo = vehiculo.InformarConsumo();
     if(vehiculo.Combustion)
