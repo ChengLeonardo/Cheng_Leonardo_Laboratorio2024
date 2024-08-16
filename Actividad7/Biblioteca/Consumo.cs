@@ -17,6 +17,12 @@ public class Consumo
 
   public void InformarConsumo(IVehiculo vehiculo)
   {
-      vehiculo.InformarConsumo();
-  }
+    if(vehiculo.Combustible)
+    {
+      Console.WriteLine($"Consumo del vehiculo: {vehiculo.InformarConsumo()} litros");
+    }
+    else
+    {
+      Console.WriteLine($"Consumo del vehiculo: {vehiculo.InformarConsumo()} kWh");
+    }
 }
