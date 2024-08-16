@@ -13,8 +13,6 @@ AutoFamiliar autoFamiliar1 = new AutoFamiliar()
     Tipo = "Familiar"
 };
 
-InformarConsumo(autoFamiliar1);
-
 AutoFamiliar autoFamiliar2 = new AutoFamiliar()
 {
     Marca = "audo", 
@@ -26,8 +24,6 @@ AutoFamiliar autoFamiliar2 = new AutoFamiliar()
     CantidadPasajeros = 9,
     Tipo = "Familiar"
 };
-
-InformarConsumo(autoFamiliar2);
 
 Camioneta camioneta = new Camioneta
 {
@@ -41,17 +37,9 @@ Camioneta camioneta = new Camioneta
     Capacidad = 2342
 };
 
-InformarConsumo(camioneta);
-
-void InformarConsumo(IVehiculo vehiculo)
-{
-    float vehiculoConsumo = vehiculo.InformarConsumo();
-    if(vehiculo.Combustion)
-    {
-        System.Console.WriteLine($"Consumo del auto: {vehiculoConsumo} litros de combustion");
-    }
-    else
-    {
-        System.Console.WriteLine($"Consumo del auto: {vehiculoConsumo} kWh de electricidad");
-    }
-}
+Consumo consumo1 = new Consumo(autoFamiliar1);
+consumo.InformarConsumo();
+Consumo consumo2 = new Consumo(autoFamiliar2);
+consumo.InformarConsumo();
+Consumo consumo3 = new Consumo(camioneta);
+consumo.InformarConsumo();
