@@ -1,32 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2024_5°7°\\Cheng_Leonardo\\test\\test.csproj": {}
+    "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\TESt\\TESt.csproj": {}
   },
   "projects": {
-    "E:\\2024_5°7°\\Cheng_Leonardo\\test\\test.csproj": {
+    "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\TESt\\TESt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2024_5°7°\\Cheng_Leonardo\\test\\test.csproj",
-        "projectName": "test",
-        "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo\\test\\test.csproj",
+        "projectUniqueName": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\TESt\\TESt.csproj",
+        "projectName": "TESt",
+        "projectPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\TESt\\TESt.csproj",
         "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-        "outputPath": "E:\\2024_5°7°\\Cheng_Leonardo\\test\\obj\\",
+        "outputPath": "E:\\2024_5°7°\\Cheng_Leonardo_Laboratorio2024\\TESt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,11 +35,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,11 +67,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
