@@ -38,8 +38,8 @@ Camioneta camioneta = new Camioneta
 };
 
 Consumo consumo1 = new Consumo(autoFamiliar1);
-consumo.InformarConsumo();
+consumo1.InformarConsumo();
 Consumo consumo2 = new Consumo(autoFamiliar2);
-consumo.InformarConsumo();
+consumo2.InformarConsumo();
 Consumo consumo3 = new Consumo(camioneta);
-consumo.InformarConsumo();
+consumo3.InformarConsumo();

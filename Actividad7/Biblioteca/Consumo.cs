@@ -15,14 +15,8 @@ public class Consumo
     }
   }
 
-  public void InformarConsumo(IVehiculo vehiculo)
+  public void InformarConsumo()
   {
-    if(vehiculo.Combustible)
-    {
-      Console.WriteLine($"Consumo del vehiculo: {vehiculo.InformarConsumo()} litros");
-    }
-    else
-    {
-      Console.WriteLine($"Consumo del vehiculo: {vehiculo.InformarConsumo()} kWh");
-    }
+    System.Console.WriteLine($"Consumo total del vehiculo: {_vehiculo.InformarConsumo()}"); 
+  }
 }

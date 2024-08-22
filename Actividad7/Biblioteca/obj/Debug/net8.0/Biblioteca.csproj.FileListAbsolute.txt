@@ -22,3 +22,15 @@ E:/2024_5°7°/Cheng_Leonardo_Laboratorio2024/Actividad6/Biblioteca/obj/Debug/ne
 /mnt/Datos/2024_5_7/Cheng_Leonardo/Cheng_Leonardo_Laboratorio2024/Actividad7/Biblioteca/bin/Debug/net8.0/Biblioteca.dll
 /mnt/Datos/2024_5_7/Cheng_Leonardo/Cheng_Leonardo_Laboratorio2024/Actividad7/Biblioteca/bin/Debug/net8.0/Biblioteca.pdb
 /mnt/Datos/2024_5_7/Cheng_Leonardo/Cheng_Leonardo_Laboratorio2024/Actividad7/Biblioteca/obj/Debug/net8.0/ref/Biblioteca.dll
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\bin\Debug\net8.0\Biblioteca.deps.json
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\bin\Debug\net8.0\Biblioteca.dll
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\bin\Debug\net8.0\Biblioteca.pdb
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfoInputs.cache
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfo.cs
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.csproj.CoreCompileInputs.cache
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.dll
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
+E:\2024_5°7°\Cheng_Leonardo_Laboratorio2024\Actividad7\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
