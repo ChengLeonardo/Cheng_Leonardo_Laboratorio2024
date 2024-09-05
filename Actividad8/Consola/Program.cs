@@ -29,8 +29,7 @@ AutoElectrico auto1ele = new AutoFamiliarElectrico
     Color = "azul",
     Kilometraje = 1000,
     NumeroSerieMotor = 3,
-    Precio = 2342342,
-    VolumenTanque = 2342
+    Precio = 2342342
 };
 
 InformarConsumoAutoElectrico(auto1ele);
@@ -91,8 +90,7 @@ AutoElectrico camioneta2 = new CamionetaElectrica
     Color = "rojo", 
     Kilometraje = 23434, 
     NumeroSerieMotor = 3432, 
-    Precio = 12312, 
-    VolumenTanque = 12342
+    Precio = 12312
 };
 
 InformarConsumoAutoElectrico(camioneta2);

@@ -6,7 +6,7 @@ namespace Biblioteca;
 
 public abstract class AutoCombustible : Auto, IConsumo
 {
-    float VolumenTanque { get; set; } //carga de combustible
+    public float VolumenTanque { get; set; } //carga de combustible
 
     public virtual float InformarConsumo()
     {
