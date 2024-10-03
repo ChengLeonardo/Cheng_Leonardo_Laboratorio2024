@@ -12,9 +12,13 @@ while(true)
     if(Verificacion.VerificarTipoNumero(edad))
     {
         edadConvertida = Convert.ToDouble(edad);
-        if(Verificacion.VerificarNumeroPositivo(edadConvertida))
+        try
         {
-            break;
+            Verificacion.VerificarNumeroPositivo(edadConvertida);
+        }
+        catch
+        {
+            
         }
     }
     Console.WriteLine("El valor ingresado es incorrecto");
